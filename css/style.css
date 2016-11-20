@@ -1,0 +1,26 @@
+body {
+	background-color: #E1DDBC;
+}
+/*E1DDD5 E1DDBC*/
+#containerPrincipal {
+	/*padding-top: 100px;*/
+}
+
+@media (min-width: 980px){
+	#navMain {
+		left: 0;
+		bottom:-50px;	  	
+	}	
+}
+
+#containerBody {
+	background-color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: #000 0px 0px 15px; /* 
+	-webkit-box-shadow: #000 0px 0px 1px;
+	-moz-box-shadow: #000 0px 0px 1px; */
+
+}

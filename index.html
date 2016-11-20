@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Lorena Ramos - Cake Designer</title>
+</head>
+<body class="container" >
+	<div class="containe" id="containerBody">
+		<header class="row">
+			<div class="navbar">
+				<!-- <div class="navbar-inner"> -->
+			    	<div class="container">
+			    		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			        		<span class="icon-bar"></span>
+			        		<span class="icon-bar"></span>
+			       			<span class="icon-bar"></span>
+			      		</a>
+			      		<a class="brand" href="#"><img src="img/logo.png" alt="Lorena Ramos"></a>
+			      		<div class="nav-collapse collapse" id="navMain">
+							<ul class="nav nav-pills ">
+				      			<li class="active"><a href="#">Home</a></li>
+				      			<li><a href="#">Produtos</a></li>
+				      			<li><a href="#">Sabores</a></li>	
+				      			<li><a href="#">Contato</a></li>
+				      			<li><a href="#">Sobre mim</a></li>
+							</ul>	
+						</div>	
+					</div>
+				<!-- </div> -->
+			</div>
+		</header>
+		<div class="row" id="containerPrincipal">
+				<div id="startFullSlide" class="carousel slide">
+				  <ol class="carousel-indicators">
+				    <li data-target="#startFullSlide" data-slide-to="0" class="active"></li>
+				    <li data-target="#startFullSlide" data-slide-to="1"></li>
+				    <li data-target="#startFullSlide" data-slide-to="2"></li>
+				    <li data-target="#startFullSlide" data-slide-to="3"></li>
+				  </ol>
+				  <!-- Carousel items -->
+				  <div class="carousel-inner">
+				    <div class="active item">
+				    	<img src="img\full-slide\montagem_bolo2.png" alt="">
+				    	<div class="carousel-caption">
+				    		<h4>Bolos de Cerimonias</h4>
+				    		<p>Casamento, Noivado, Cha de panela, Cha de Frauda</p>
+				    	</div>
+				    </div>
+				    <div class="item">
+				    	<img src="img\full-slide\montagem_bolo_personalizado.png" alt="">
+				    	<div class="carousel-caption">
+				    		<h4>Bolos personalizados</h4>
+				    		<p>Tematico, personagens infantis, personagens de quadrinhos, etc</p>
+				    	</div>
+				    </div>
+				    <div class="item">
+				    	<img src="img\full-slide\montagem_doce_personalizado.png" alt="">
+				    	<div class="carousel-caption">
+				    		<h4>Doce personalizado</h4>
+				    		<p>Simples, Alfajor, Capcake, Macas, Bem Casados, Porta Retrato, etc</p>
+				    	</div>
+				    </div>
+				    <div class="item">
+				    	<img src="img\full-slide\montagem_named_cake.png" alt="">
+				    	<div class="carousel-caption">
+				    		<h4>NamedCake</h4>
+				    		<p>Nava tendencia.</p>
+				    	</div>
+				    </div>
+				  </div>
+				  <!-- Carousel nav -->
+				  <a class="carousel-control left" href="#startFullSlide" data-slide="prev">&lsaquo;</a>
+				  <a class="carousel-control right" href="#startFullSlide" data-slide="next">&rsaquo;</a>
+				</div>
+		</div>
+	<footer>
+		
+	</footer>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBQRpptITGrHww2mcxzxPsEL74LtMNAmdk",
+    authDomain: "lorena-cake-designer.firebaseapp.com",
+    databaseURL: "https://lorena-cake-designer.firebaseio.com",
+    storageBucket: "",
+    messagingSenderId: "172478036693"
+  };
+  firebase.initializeApp(config);
+</script>
+</body>
+</html>
